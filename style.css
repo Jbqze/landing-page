@@ -1,8 +1,10 @@
 body {
-
    height: 100vh;
    padding: 0;
    margin: 0;
+   display: flex;
+   flex-direction: column;
+   flex: 1;
 }
 
 .header-container{
@@ -14,19 +16,20 @@ background-color: #1f2937;
 
 display: flex;
 flex: 1;
-padding: 10px;
-margin: 10px;
-
+padding-left: 35px;
+margin: 15px;
+align-items: center;
+justify-content: flex-start;
+font-weight: bolder;
 
 }
 .Header{
-    
 display: flex;
 font-size: 24px;
 color: #f9faf8;
 gap: 18px;
-padding: 10px;
-margin: 10px;
+padding: 0px;
+margin: 0px;
 }
 
 .link, .link2, .link3 {
@@ -34,16 +37,14 @@ display: flex;
 font-size: 18px;
 color: #e5e7eb;
 align-items: center;
+padding-right: 35px;
 
 }
 
 
-
 .content{
 
-    display: flex;
-    justify-content: space-between;
-    
+    display: flex; 
 }
 
 
@@ -58,24 +59,19 @@ border: none;
 }
 
 .website{
-
-
    font-size: 48px;
    font: bolder;
    color: #f9faf8;
    display: flex; 
-   
-   
-   
 }
 
 .left{
  
-   max-width:  300px; 
+   max-width:  400px; 
    padding: 25px;
    margin: 25px;
-   
-    
+   align-items: center;
+   justify-content: center;
     
 }
 
@@ -84,5 +80,162 @@ border: none;
     
     font-size: 18px;
     color: #e5e7eb;
+   
     
+}
+
+.right{
+
+
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image{
+    
+    height: 200px;
+    width: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+
+}
+
+.middle-box{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 20px;
+}
+
+.text2{
+
+     display: flex;
+     text-align: center;
+     justify-content: center;
+    font-size:36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+.info{
+     
+   height: 150px;
+   width: 150px;
+   border: 1px solid #3882f6;
+   border-width: 3px;
+   border-radius: 15%;
+  
+
+}
+
+.one{
+
+   max-width: 150px;
+   text-align: center;
+}
+
+.qoute-box{
+
+background-color: #e5e7eb;
+padding: 0px;
+margin: 0px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+
+}
+
+.qoute{
+
+
+font-size: 36px;
+color:#1f2937;
+font-style: italic;
+margin: 60px;
+
+}
+
+
+.thor{
+  
+    
+ font-weight: bold;
+ font-size: 20px;
+ display: flex;
+ justify-content: end;
+
+ padding-bottom: px;
+  padding-right: 60px;
+ 
+}
+
+
+
+.cta{
+
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    padding: 25px;
+    margin-top: 25px;
+    background-color:#3882f6 ;
+    margin-right: 150px;
+    
+     border-radius: 4px;
+     border: none;
+    margin-left: 150px;
+    margin-bottom:30px;
+    
+}
+
+.cta-sign{
+     
+    border: 1px solid white;
+    margin: 10px;
+    padding: 5px;
+    width: 100px;
+    font-weight: bold;
+    align-items: center;
+    
+}
+
+.cta-left
+{
+
+display: flex;
+flex-direction: column;
+justify-content: start;
+color: white;
+
+}
+
+.cta-text{
+
+    font-weight: bold;
+    font-size: large;
+}
+
+
+.footer-end{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+
+background-color: #1f2937;
+color: white;
+
+
 }
